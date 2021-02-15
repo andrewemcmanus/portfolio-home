@@ -26,9 +26,10 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>about me</MenuItem>
+        <MenuItem onClick={handleClose}>projects</MenuItem>
+        <MenuItem onClick={handleClose}>resume</MenuItem>
+        <MenuItem onClick={handleClose}>contact</MenuItem>
       </Menu>
     </div>
   );

@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function TopBar() {
   const classes = useStyles();
-
+// Dropdown menu for the external project sites?
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -32,7 +32,7 @@ export default function TopBar() {
             <SimpleMenu />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            Andrew McManus, software engineer
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>

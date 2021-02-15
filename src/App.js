@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import TopBar from './components/TopBar'
 import Welcome from './components/Welcome';
+// import TopLayoutBlog from './components/TopLayoutBlog';
 
 
 function App() {
