@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Router>
+  <Router >
     <App />
   </Router>,
   document.getElementById('root')
